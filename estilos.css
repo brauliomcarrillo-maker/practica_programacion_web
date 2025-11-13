@@ -1,0 +1,271 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  font-size: 16px;
+  font-family: helvetica;
+}
+
+.header{
+  background-color: #E0F5F7;
+}
+
+.contenido{
+  width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+
+.logo{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 850px;
+}
+
+.mis_datos{
+  display: inline-block;
+  padding-top: 30px;
+  text-align: right;
+}
+
+.mis_datos p{
+  font-weight: bold;
+  color: #008080;
+}
+
+.menu{
+  text-align: center;
+}
+
+.menu a{
+  color: #008080;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+}
+
+.menu a:hover{
+  color: white;
+  background-color: #008080;
+}
+
+.contenedor_fondoimg{
+  background-image: url(imagenes/foto_slide.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.contenedor_fondoimg h2{
+  font-size: 70px;
+}
+.contenedor_fondoimg h3{
+  font-style: italic;
+}
+
+.contenedor_fondoimg a{
+  display: inline-block;
+  width: 100px;
+  background-color: #008080;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 30px;
+}
+
+.contenedor_contenido{
+  color: #008080;
+  text-align: center;
+  padding: 80px;
+}
+
+.delimitar_contenido{
+  width: 1200px;
+  margin: auto;
+}
+
+.delimitar_contenido img{
+  width: 100%;
+}
+
+.columna{
+  display: inline-block;
+  width: 380px;
+  vertical-align: top;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.columna h3{
+  color: #005953;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.columna:last-child{
+  margin-right: 0;
+}
+
+.textote{
+  font-size: 50px;
+  color: #005953;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.abajo{
+  background-color: #005953;
+  color: white;
+  padding: 20px;
+}
+
+.contenedor_imagen{
+  display: inline-block;
+  margin-right: 240px;
+}
+
+.contenedor_imagen img{
+  width: 160px;
+}
+
+.contenedor_txt{
+  display: inline-block;
+  width: 400px;
+  vertical-align: top;
+  text-align: center;
+  padding-top: 35px;
+  margin-right: 200px;
+}
+
+.contenedor_txt h2{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.instagram{
+  display: inline-block;
+  vertical-align: top ;
+  padding-top: 68px;
+}
+
+.instagram a{
+  background-color: white;
+  color: #005953;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.azulito{
+  color: #008080;
+}
+
+.times{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+  padding: 10px;
+}
+
+.contenedor_informacion{
+  width: 900px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.contenedor_informacion h2{
+  color: #005953;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.contenedor_informacion p{
+  color: #008080;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.centrar{
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.centrar h2{
+  font-size: 65px;
+}
+
+.centrar a{
+  background-color: #008080;
+  padding: 15px;
+  display: inline-block;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 130px;
+  color: white;
+  text-decoration: none;
+}
+
+.contenido_pagina{
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+  padding-top: 80px;
+}
+
+.contenido_pagina h2{
+  color: #005953;
+  font-size: 30px;
+}
+
+.contenido_pagina p{
+  color: #008080;
+  font-size: 20px;
+}
+
+.contenedor_formulario{
+  background-color: #005953;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding-top: 70px;
+  margin-bottom: 120px;
+}
+
+.contenedor_formulario input{
+  background-color: #1D6B63;
+  width: 410px;
+  border: 0px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.contenedor_formulario input::placeholder{
+  color: white;
+}
+
+.espacio{
+  margin-right: 25px;
+}
+
+.contenedor_formulario button{
+  background-color: #008080;
+  width: 930px;
+  color: white;
+  border: 0px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
